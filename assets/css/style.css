@@ -1,0 +1,531 @@
+/* CUSTOM SHEET PANEL.WEAB.FR
+-------------------------------------------------- */
+
+/*
+ ######   ######## ##    ## ######## ########     ###    ##       
+##    ##  ##       ###   ## ##       ##     ##   ## ##   ##       
+##        ##       ####  ## ##       ##     ##  ##   ##  ##       
+##   #### ######   ## ## ## ######   ########  ##     ## ##       
+##    ##  ##       ##  #### ##       ##   ##   ######### ##       
+##    ##  ##       ##   ### ##       ##    ##  ##     ## ##       
+ ######   ######## ##    ## ######## ##     ## ##     ## ########*/
+ body, html {
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+#wrap {
+	min-height: 100%;
+	height: auto;
+	/* Negative indent footer by its height */
+	margin: 0 auto -235px;
+	/* Pad bottom by footer height */
+	padding: 0 0 235px;
+}
+
+section:first-of-type {
+	padding-top: 50px;
+}
+
+.lead {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.btn-circle {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.428571429;
+	border-radius: 15px;
+}
+.btn-circle.btn-lg {
+	width: 50px;
+	height: 50px;
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 25px;
+}
+.btn-circle.btn-xl {
+	width: 70px;
+	height: 70px;
+	padding: 10px 16px;
+	font-size: 24px;
+	line-height: 1.33;
+	border-radius: 35px;
+}
+
+.margin-30 {
+	margin-left: 30px;
+}
+
+/*!
+ * Yamm!3 - Yet another megamenu for Bootstrap 3
+ * http://geedmo.github.com/yamm3
+ * 
+ * @geedmo - Licensed under the MIT license
+ */
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+position: static;
+}
+.yamm .container {
+position: relative;
+}
+.yamm .dropdown-menu {
+left: auto;
+}
+.yamm .yamm-content {
+padding: 20px 30px;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+left: 0;
+right: 0;
+}
+
+
+.dailymotion {color: #004e72;}
+.facebook {color: #3e5b98;}
+.instagram {color: #9c7c6e;}
+.soundcloud {color: #fe3801;}
+.twitter {color: #4da7de;}
+.youtube {color: #e02a20;}
+.pinterest {color: #c92619;}
+.vimeo {color: #51b5e7;}
+.vine {color: #00b389;}
+
+.dailymotion-bg {background-color: #004e72;}
+.facebook-bg {background-color: #3e5b98;}
+.instagram-bg {background-color: #9c7c6e;}
+.soundcloud-bg {background-color: #fe3801;}
+.twitter-bg {background-color: #4da7de;}
+.youtube-bg {background-color: #e02a20;}
+.pinterest-bg {background-color: #e02a20;}
+.vimeo-bg {background-color: #51b5e7;}
+.vine-bg {background-color: #00b389;}
+
+/*.iconbg {text-shadow: 2px 4px #000}*/
+
+.intro-header .iconbg {
+	font-size: 26px;
+    text-shadow: 1px 2px #000;
+}
+
+.services-list .iconbg {
+	font-size: 72px;
+    text-shadow: 2px 4px #333;
+}
+
+.circle-32 {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	color: #fff;
+	line-height: 55px;
+	text-align: center;
+}
+
+.circle-128 {
+	width: 118px;
+	height: 118px;
+	border-radius: 50%;
+	color: #fff;
+	line-height: 130px;
+	text-align: center;
+	margin: 10px auto;
+}
+
+/*
+##     ##  #######  ##     ## ######## 
+##     ## ##     ## ###   ### ##       
+##     ## ##     ## #### #### ##       
+######### ##     ## ## ### ## ######   
+##     ## ##     ## ##     ## ##       
+##     ## ##     ## ##     ## ##       
+##     ##  #######  ##     ## ########*/
+.intro-header {
+	padding-top: 50px;
+	/*padding-bottom: 50px;*/
+	color: #f8f8f8;
+	background: url(/assets/images/arrow.png) no-repeat center center;
+	background-color: #79b5f7;
+	background-size: cover;
+	text-align: center;
+}
+
+.intro-message {
+	position: relative;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.intro-message h1 {
+	margin: 0;
+	font-size: 5em;
+	font-weight: 700;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-divider {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message h3 {
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.dropdown-header {
+	color: #2980b9;
+	font-size: 1.2em;
+}
+
+.network-name {
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.content {
+	padding: 50px 0;
+}
+
+.content-section-a {
+	background-color: #f8f8f8;
+	padding: 50px 0;
+}
+
+.content-section-b {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 50px 0;
+}
+
+.content-first {
+	text-align: center;
+	padding: 20px 0;
+}
+.content-first h2{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 400;
+	font-size: 3.7em;
+}
+
+.section-heading {
+	margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+	border-top: 3px solid #e7e7e7;
+	width: 200px;
+	float: left;
+}
+
+.banner {
+	padding: 100px 0;
+	color: #f8f8f8;
+	background-color: #79b5f7;
+}
+
+.banner h2 {
+	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	font-size: 3em;
+}
+
+.banner ul {
+	margin-bottom: 0;
+}
+
+.banner-social-buttons {
+	float: right;
+	margin-top: 0;
+}
+
+.services-list h4{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 400;
+	font-size: 3em;
+	margin-bottom: 30px;
+}
+
+.services-list li{
+	font-size: 1.2em;
+}
+
+.services-list img {
+	margin-bottom: 10px;
+}
+	
+/*
+########     ###     ######   ########  ######  
+##     ##   ## ##   ##    ##  ##       ##    ## 
+##     ##  ##   ##  ##        ##       ##       
+########  ##     ## ##   #### ######    ######  
+##        ######### ##    ##  ##             ## 
+##        ##     ## ##    ##  ##       ##    ## 
+##        ##     ##  ######   ########  ######  
+*/
+.header-page {
+	padding-top: 60px;
+	padding-bottom: 20px;
+	color: #f8f8f8;
+	background-color: #79b5f7;/*428BCA*/
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.header-page h1 {
+	margin: 0;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+	font-family: 'Dancing Script', cursive;
+	font-weight: 400;
+	font-size: 3.5em;
+}
+
+.callout {
+	padding: 50px 0;
+	color: #f8f8f8;
+	background-color: #d1e7fa;
+}
+
+.callout a {
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+	font-size: 2em;
+}
+
+.clients i {
+	color: #79b5f7;
+}
+.clients h3 {
+	color: #2c3e50;
+	margin-bottom: 0;
+}
+
+/* acheter-des-votes-pour-un-concours.php */
+.votes li {
+	font-size: 2em;
+	margin: 20px 0;
+}
+.votes li:last-child {
+	font-size: 1.5em;
+}
+.votes .divider {
+	background-color: #E5E5E5;
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+}
+#quote {
+	padding: 50px 0;
+	color: #f8f8f8;
+	background-color: #79b5f7;
+}
+#quote h2{
+	font-family: 'Dancing Script', cursive;
+	font-size: 4em;
+	font-weight: 400;
+}
+
+/* acheter-des-fans-facebook.php */
+#like {
+    background: url("../images/fb.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 256px;
+    padding-top: 31px;
+    width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.number {
+    font-family: 'Helvetica Neue',Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif;
+	color: #6A7180;
+    font-size: 56px;
+    font-weight: normal;
+    margin-left: 110px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 92px;
+}
+.number span {
+    position: relative;
+}
+
+/*PROCESS STEPS SMALL*/
+.process-steps i {
+	font-size: 10em;
+	color: #e67e22;
+}
+
+/* CONTACT */
+div.captcha {
+	clear: both;
+	overflow: hidden;
+	background: #F2F2F2;
+	text-align: center;
+	margin-bottom: 20px;
+	max-width: 160px;
+}
+
+div.captcha-image {
+	float: left;
+	position: relative;
+	top: -11px;
+	left: -12px;
+}
+
+div.captcha input {
+	border: 0;
+}
+
+div.captcha {
+	height: 70px;
+}
+
+/* FAQ */
+.faq .tab-content h3 {
+	margin-top: 0;
+}
+
+.faq .tab-content h4 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.faq .col-sm-9 {
+	min-height: 500px;
+}
+
+.faq .content-section-a {
+	background-color: #d1e7fa;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+/*
+########  #######   #######  ######## ######## ########  
+##       ##     ## ##     ##    ##    ##       ##     ## 
+##       ##     ## ##     ##    ##    ##       ##     ## 
+######   ##     ## ##     ##    ##    ######   ########  
+##       ##     ## ##     ##    ##    ##       ##   ##   
+##       ##     ## ##     ##    ##    ##       ##    ##  
+##        #######   #######     ##    ######## ##     ##*/
+footer {
+	background-color: #f8f8f8;
+	padding: 20px 0;
+	height: 235px;
+	border-top: 1px solid #e7e7e7;
+}
+
+p.copyright {
+	margin: 15px 0 0;
+}
+
+footer img {
+	margin-bottom: 20px;
+}
+
+/*
+##     ## ######## ########  ####    ###        #######  ##     ## ######## ########  #### ########  ######  
+###   ### ##       ##     ##  ##    ## ##      ##     ## ##     ## ##       ##     ##  ##  ##       ##    ## 
+#### #### ##       ##     ##  ##   ##   ##     ##     ## ##     ## ##       ##     ##  ##  ##       ##       
+## ### ## ######   ##     ##  ##  ##     ##    ##     ## ##     ## ######   ########   ##  ######    ######  
+##     ## ##       ##     ##  ##  #########    ##  ## ## ##     ## ##       ##   ##    ##  ##             ## 
+##     ## ##       ##     ##  ##  ##     ##    ##    ##  ##     ## ##       ##    ##   ##  ##       ##    ## 
+##     ## ######## ########  #### ##     ##     ##### ##  #######  ######## ##     ## #### ########  ######*/
+@media (max-width: 1199px) {
+	ul.banner-social-buttons {
+		float: left;
+		margin-top: 15px;
+	}
+	.banner{
+		text-align: center;
+	}
+	.banner .col-lg-4{
+		margin-top: 30px;
+	}
+}
+@media (max-width: 992px) {
+	.home-concept .project-image {
+		margin: 135px auto 0 auto;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.intro-message h1 {
+		font-size: 3em;
+	}
+
+	ul.intro-social-buttons > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	ul.intro-social-buttons > li:last-child {
+		margin-bottom: 0;
+	}
+
+	.intro-divider {
+		width: 100%;
+	}
+	
+	.content-first h2{
+		font-size: 3em;
+	}
+	
+	.banner h2 {
+		font-size: 2em;
+	}
+
+	.callout a {
+		letter-spacing: 1px;
+		font-size: 1.3em;
+	}
+
+	ul.banner-social-buttons > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	ul.banner-social-buttons > li:last-child {
+		margin-bottom: 0;
+	}
+}
+/*
+     FILE ARCHIVED ON 23:11:09 May 05, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:54:18 Sep 24, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.8
+  exclusion.robots: 0.027
+  exclusion.robots.policy: 0.012
+  esindex: 0.02
+  cdx.remote: 26.985
+  LoadShardBlock: 183.953 (3)
+  PetaboxLoader3.datanode: 178.154 (4)
+  load_resource: 70.245
+  PetaboxLoader3.resolve: 49.564
+*/

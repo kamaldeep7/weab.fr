@@ -1,0 +1,152 @@
+<html lang="fr" style="--wm-toolbar-height: 69px;">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Connexion - WEAB</title>
+        <meta name="description" content="Conectez-vous à notre panel pour des services automatiques sur Facebook, Instagram, Pinterest, SoundCloud, Twitter, Vimeo, Vine et YouTube.">
+
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
+    
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CDancing+Script" rel="stylesheet" type="text/css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="../../assets/js/html5shiv.js"></script>
+            <script src="../../assets/js/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="../assets/images/favicon.png">
+    </head>
+
+    <body>
+        <div id="wrap">
+            <nav>
+                <div class="navbar navbar-default navbar-fixed-top yamm">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="/">Weab</a>
+                        </div>
+
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="../register"><span class="glyphicon glyphicon-log-in"></span> Inscription</a></li>
+                                <li><a href="../login"><span class="glyphicon glyphicon-log-in"></span> Connexion</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <noscript>
+                <div style="padding-top:100px"><div class="alert alert-danger" style="text-align:center"><h2>Veuillez activer Javascript !</h2></div></div>
+            </noscript>
+
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1>Connexion <small>Pas encore inscrit ? <a href="../register" title="Inscription">Inscrivez-vous</a> !</small></h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <label for="email" class="col-lg-offset-2 col-lg-3 control-label">Email</label>
+                                    <div class="col-lg-4">
+                                        <input type="email" class="form-control" id="email" placeholder="Email" autofocus="">
+                                        <span class="help-block error"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="col-lg-offset-2 col-lg-3 control-label">Mot de passe</label>
+                                    <div class="col-lg-4">
+                                        <input type="password" class="form-control" id="password" placeholder="Mot de passe">
+                                        <span class="help-block error"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group" id="result" style="display:none"></div>
+                                <div class="form-group">
+                                    <div class="col-lg-offset-5 col-lg-4">
+                                        <button id="submit" type="submit" class="btn btn-primary">Connexion</button>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-lg-offset-2 col-lg-3 control-label">Mot de passe oublié ?</label>
+                                    <div class="col-lg-4">
+                                        <p class="form-control-static">
+                                            <!-- <a href="../forgot-password" title="Réinitialisation du mot de passe"> -->
+                                            <a href="#" title="Réinitialisation du mot de passe">
+                                                Réinitialiser mon mot de passe
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-12">
+                        <img src="../assets/images/logo.png" alt="Weab Logo" title="Weab" class="img-responsive center-block">
+                        <ul class="list-inline">
+                            <li><a href="/" title="Retour à l'accueil">Accueil</a></li>
+                            <li class="footer-menu-divider">⋅</li>
+                            <li><a href="../faq" title="Foire aux questions">FAQ</a></li>
+                            <li class="footer-menu-divider">⋅</li>
+                            <li><a href="../cgu" title="Conditions d'utilisation">CGU</a></li>
+                            <li class="footer-menu-divider">⋅</li>
+                            <li><a href="../contact" title="Contactez-nous">Contact</a></li>
+                        </ul>
+                        <p class="copyright text-muted small">Copyright © Weab.fr 2011-2016. Tous droits réservés</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JavaScript
+        ================================================== -->
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <!-- <script src="../assets/js/weab.js"></script> -->
+        <script src="../assets/js/login.js"></script>
+
+        <!-- <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-8410169-47']);
+            _gaq.push(['_setDomainName', 'weab.fr']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script> -->
+        
+        <script type="text/javascript">
+            $(document).on('click', '.yamm .dropdown-menu', function(e) {
+                e.stopPropagation()
+            })
+        </script>
+    </body>
+</html>

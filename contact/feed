@@ -1,0 +1,12 @@
+<rss version="2.0">
+    <channel>
+        <title>Commentaires sur : Contact</title>
+        <atom:link href="http://weab.fr/contact/feed/" rel="self" type="application/rss+xml"/>
+        <link>http://weab.fr</link>
+        <description/>
+        <lastBuildDate/>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <generator>http://wordpress.org/?v=3.4.1</generator>
+    </channel>
+</rss>
